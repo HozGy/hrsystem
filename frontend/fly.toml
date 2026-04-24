@@ -21,12 +21,10 @@ primary_region = "sin"
     handlers = ["tls", "http"]
     port = 443
 
-  [[services.http_checks]]
-    interval = 10000
-    timeout = 2000
-    grace_period = "5s"
-    method = "get"
-    path = "/api/health"
+  [[services.tcp_checks]]
+    grace_period = "1s"
+    interval = "15s"
+    timeout = "2s"
 
 [http_service]
   internal_port = 3000
