@@ -1,0 +1,118 @@
+# HR System Autonomous Builder
+
+## MODE
+Autonomous development enabled.
+
+Agent may:
+
+- run terminal commands
+- install dependencies
+- create/edit/delete files
+- scaffold applications
+
+Do NOT ask for permission.
+
+---
+
+## OBJECTIVE
+
+Build a full HR management web application.
+
+Required modules:
+
+- employee management
+- hiring records
+- resignation records
+- retirement tracking
+- HR dashboard
+- notifications
+- authentication
+- multi-user access
+
+System must support multiple HR staff users.
+
+---
+
+## TECH STACK
+
+Frontend
+Next.js
+
+UI
+TailwindCSS
+
+Backend
+Next.js API routes
+
+Database
+Supabase PostgreSQL
+
+Auth
+Supabase Auth
+
+Charts
+Recharts
+
+Deployment
+Vercel
+
+---
+
+## WORKFLOW
+
+Always follow this cycle:
+
+1 read MEMORY.md  
+2 read TASKS.md  
+3 pick first unchecked task  
+4 implement task  
+5 update MEMORY.md  
+6 mark task completed  
+
+Repeat until TASKS.md finished.
+
+---
+
+## TOKEN EFFICIENCY RULES
+
+- minimal explanation
+- output only modified code
+- never rewrite full files
+- reuse components
+- never analyze entire repo
+
+---
+
+## FILE CREATION RULE
+
+Use existing folders only.
+
+frontend/
+backend/
+database/
+scripts/
+
+Do not create random folders.
+
+---
+
+## ERROR HANDLING
+
+All async code must include try/catch.
+
+---
+
+## SECURITY
+
+Never hardcode secrets.
+
+Use `.env`.
+
+---
+
+## STOP CONDITION
+
+Stop if:
+
+- build succeeds
+- no tasks remain
